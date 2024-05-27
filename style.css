@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(46, 46, 46);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.seatMain {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.seat {
+    font-size: 35px;
+    margin: 10px;
+    color: lightgray;
+}
+
+.seat:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h2 {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.movieMain {
+    margin: 15px;
+}
+
+#selectMovie {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seatStatusMain {
+    display: flex;
+}
+
+.seatStatusMain * {
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bos {
+    color: lightgray;
+}
+
+.secili {
+    color: rgb(194, 194, 3);
+}
+
+.dolu {
+    color: rgb(187, 3, 3);
+}
+
+.info>p {
+    font-size: large;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.info>p>span {
+    font-size: larger;
+    font-weight: bolder;
+    color: yellow
+}
+
+.buttonMain * {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    color: lightgrey
+}
+
+#buyButton {
+    background-color: rgb(0, 77, 0);
+}
+
+#clearButton {
+    background-color: rgb(75, 74, 74);
+}
+
+.screen {
+    width: 80%;
+    height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+}
+
+.screen>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: contents;
+    color: rgb(39, 39, 39);
+}
