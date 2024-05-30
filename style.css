@@ -25,7 +25,10 @@ body {
     color: lightgray;
 }
 
-.seat:hover {
+.seat:not(.full):hover
+
+/*full class'ına sahip olmayanların üzerine gelindiğinde*/
+    {
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -56,15 +59,15 @@ h2 {
     font-weight: bold;
 }
 
-.bos {
+.empty {
     color: lightgray;
 }
 
-.secili {
+.selected {
     color: rgb(194, 194, 3);
 }
 
-.dolu {
+.full {
     color: rgb(187, 3, 3);
 }
 
@@ -94,10 +97,12 @@ h2 {
 
 #buyButton {
     background-color: rgb(0, 77, 0);
+    cursor: pointer;
 }
 
 #clearButton {
     background-color: rgb(75, 74, 74);
+    cursor: pointer;
 }
 
 .screen {
